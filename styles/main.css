@@ -129,7 +129,7 @@ main content style
 .footersection{
     background-color: #161616;
     width:100%;
-    padding:0px;
+    padding-bottom: 40px;
     margin:0px;
     justify-content: center;
     align-items: center;
@@ -146,10 +146,25 @@ hr{
     width:80%;
     color:rgb(219, 209, 209);
 }
+.footerlink{
+    padding:30px;
+    text-align: center;
+}
 .footerlink a{
     text-decoration:none ;
     color: white;
     padding: 15px;
     margin: 200px 0px;
 
+}
+.social{
+    padding:30px;
+    text-align: center;
+}
+.social a{
+    text-decoration: none;
+    text-align: center;
+    padding:50px 20px;
+    color:white;
+    margin-bottom: 40px;
 }
