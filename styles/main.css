@@ -1,0 +1,155 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto+Condensed&family=Romanesco&display=swap');
+/* Common Styles */
+.body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Romanesco', cursive;
+}
+
+.mainheader{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: black;
+    width:80%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 100px;
+    padding: 40px 40px;
+}
+
+.headercontent{
+    margin:0px;
+}
+.headercontent h2{
+    color: white;
+    font-size: 50px;
+    padding : 10px 50px;
+}
+
+.headercontent p{
+    color: white;
+    font-size: 20px;
+    padding : 0px 50px;
+}
+
+.watchbtn{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding : 10px 50px;
+    margin-left: 48px;
+}
+
+.headerimg{
+    height: 100%;
+    align-items: baseline;
+    margin:0px;
+    padding:0px;
+    justify-content: last baseline;
+    justify-items: flex-end;
+}
+
+/* ------------------------
+main content style
+--------------------------- */
+.maincontent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 2fr);
+    gap: 20px;
+    flex-direction: row;
+    border-radius: 10px;
+    width:80%;
+    padding: 40px 100px;
+   
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height:200px;
+    border-radius: 10px;
+    padding-top: 20px;
+
+}
+.sidebar a{
+    text-decoration: none;
+    padding: 10px 60px;
+    margin: 10px 25px;
+    border-radius:5px;
+    background-color: white;
+    color:black;
+}
+.sidebar a:active{
+    text-decoration: none;
+    padding: 10px 60px;
+    margin: 10px 25px;
+    border-radius:5px;
+    background-color: rgb(211, 29, 29);
+    color:rgb(255, 255, 255);
+}
+
+
+.maincontentdetails{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+}
+
+.match{
+    border: 1px solid rgb(233, 232, 232);
+    border-radius: 10px;
+}
+
+.transferbtn{
+    
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.match h2{
+    
+    padding: 10px;
+}
+
+.iconrow{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.footersection{
+    background-color: #161616;
+    width:100%;
+    padding:0px;
+    margin:0px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.footertitle h2{
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    padding:40px;
+}
+
+hr{
+    width:80%;
+    color:rgb(219, 209, 209);
+}
+.footerlink a{
+    text-decoration:none ;
+    color: white;
+    padding: 15px;
+    margin: 200px 0px;
+
+}
