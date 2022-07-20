@@ -61,7 +61,6 @@ main content style
     display: grid;
     grid-template-columns: repeat(2, 1fr 2fr);
     gap: 20px;
-    flex-direction: row;
     border-radius: 10px;
     width:80%;
     padding: 40px 100px;
@@ -94,37 +93,34 @@ main content style
     color:rgb(255, 255, 255);
 }
 
-
+.contentrow{
+    display:grid;
+    grid-template-columns: repeat(3 1fr);
+    gap: 20px;
+}
 .maincontentdetails{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap:20px;
-}
-
-.match{
     border: 1px solid rgb(233, 232, 232);
-    border-radius: 10px;
-}
-
-.transferbtn{
-    
-    padding: 10px 30px;
-    margin: 10px;
     border-radius: 5px;
-}
-
-.match h2{
-    
-    padding: 10px;
-}
-
-.iconrow{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
+    justify-items: center;
     align-items: center;
-    padding: 10px;
 }
+
+
+.flag{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr 1fr 2fr);
+    gap: 5px;
+    justify-items: center;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    padding:0px;
+    
+}
+
 
 .footersection{
     background-color: #161616;
